@@ -1,0 +1,102 @@
+.conteneur
+{   
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(231, 223, 223);
+    
+    
+}
+.entete
+{
+    text-align: center;
+}
+.element1
+{   
+    border-left: 10px solid #d82c2c;
+    border-right: 20px solid white;
+    
+    background-color: rgb(231, 223, 223);
+  
+    width: fit-content;
+    flex: 1;
+  
+}
+.element2
+{  
+    border-left: 10px solid #d82c2c;
+    border-right: 20px solid white;
+    
+    background-color: rgb(231, 223, 223);
+  
+    width: fit-content;
+    flex: 1;
+  
+}
+.element3
+{   
+    border-left: 10px solid #d82c2c;
+    border-right: 20px solid white;
+    
+    background-color: rgb(231, 223, 223);
+  
+    width: fit-content;
+    flex: 1;
+  
+}
+.titleFilm {
+    position: relative;
+    bottom: 51px;
+    left: 11%;
+    color: white;
+    font-size: 22px;
+}
+.image {
+    width: 100%;
+  }
+.divTitre {
+    position: absolute;
+  }
+.paragraph{
+    color: #0b0b0b;
+    font-size: 18px;
+    background-color:rgb(231, 223, 223);
+  }
+.colorReview {
+    color: #d82c2c;
+    background-color: rgb(231, 223, 223);
+  }
+.logo{
+
+    height: 10%;
+    width: 10%;
+}
+h3{
+
+ color: #d82c2c;
+ font-size: 40px;
+}
+.blockName {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: rgb(231, 223, 223);
+  }
+.paragraph::first-letter{
+   color:  #d82c2c;
+   font-size: 25px;
+  }
+.element1:hover{
+    border-left: 10px solid grey;
+
+}
+.element2:hover{
+    border-left: 10px solid grey;
+}
+.element3:hover{
+    border-left: 10px solid grey;
+}
+.element1:active{
+
+    opacity: 0.5;
+}
